@@ -1,7 +1,7 @@
-
 #include <stdio.h>
 #include <stdbool.h>
 
+//Operadores lógicos (&&, || e !)
 int main(){
     bool verdade = true;
     bool falso = false;

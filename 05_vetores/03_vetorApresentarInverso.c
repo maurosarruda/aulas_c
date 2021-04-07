@@ -1,7 +1,7 @@
 #include <stdio.h>
 
+//Faça um programa que leia e armazene 10 valores e os apresente de forma inversa.
 int main(){
-
 	float numeros[10];
 	int contador;
 
@@ -15,7 +15,6 @@ int main(){
 	for (contador = 9; contador >= 0; contador--){
 		printf("numeros[%i] = %.2f\n", contador, numeros[contador]);
 	}
-
 	return 0;
 }
 

@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//Faça um programa que apresente um menu com a opção de Somar, Subtrair
+// e Sair. Ele deve receber dois valores e fazer a operação selecionada.
+//O programa deve finalizar apenas quando a opção de sair for pressionada.
 int main(){
 	float valor1, valor2;
     int opcao;

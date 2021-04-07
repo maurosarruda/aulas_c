@@ -1,7 +1,8 @@
 #include <stdio.h>
 
+//Calcule a media de 5 alunos que possuem 3 notas cada. Para isso utilize
+// um laço de repetição for aninhado.
 int main(){
-    //Receber 3 notas de 5 alunos
 	float nota, mediaAluno;
 	
 	for(int quantidadeAlunos = 1; quantidadeAlunos <= 5; quantidadeAlunos++){

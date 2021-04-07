@@ -1,6 +1,6 @@
-
 #include <stdio.h>
 
+// Exemplo de funcionamento do pós-incremento e pré-incremento
 int main(){
     int x, y, z;
     x = y = 10;

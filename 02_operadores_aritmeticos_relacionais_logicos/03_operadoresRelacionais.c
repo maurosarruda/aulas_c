@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 
+//Operadores relacionais (==, !=, >, <, >=, <=)
 int main(){
     int valor1, valor2;
     
@@ -13,6 +14,8 @@ int main(){
     printf("%i != %i, é %i\n", valor1, valor2, valor1 != valor2);
     printf("%i > %i, é %i\n", valor1, valor2, valor1 > valor2);
     printf("%i < %i, é %i\n", valor1, valor2, valor1 < valor2);
+    printf("%i >= %i, é %i\n", valor1, valor2, valor1 >= valor2);
+    printf("%i <= %i, é %i\n", valor1, valor2, valor1 <= valor2);
     
     return 0;
 }

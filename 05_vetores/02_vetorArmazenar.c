@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Faça um programa que leia 10 valores e os armazene em um vetor.
 int main(){
 
 	float numeros[10];

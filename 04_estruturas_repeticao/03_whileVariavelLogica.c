@@ -2,22 +2,23 @@
 #include <stdbool.h>
 
 int main(){
-	
 	int contador;
-
 	contador = 1;
+
+	//While sem chaves
     while (contador <= 2)
 		++contador;
 	
+	//While com Chaves
 	while (contador <= 5){ 
 		printf("%i\n", contador);
 		++contador;
 	}
 
-
 	bool parada = true;
 	float valor1, valor2;
 
+	//While com variavel lógica
 	while(parada){
 		printf("Entre com o primeiro valor:\n");
 		scanf("%f", &valor1);
@@ -31,8 +32,6 @@ int main(){
 			printf("A divisão de %.2f por %.2f é: %.2f\n", valor1, valor2, valor1/valor2);
 		}
 	}
-
-
-
+	
 	return 0;
 }

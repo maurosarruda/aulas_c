@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main(){
@@ -6,7 +5,8 @@ int main(){
 	printf("Insira um numero de 1 a 3:\n");
 	scanf("%i",  &num);
 
-	 switch (num){
+	//Estrutura Condicional Switch
+	switch (num){
 		case 1:
 			printf("Primeiro\n");
 			break;

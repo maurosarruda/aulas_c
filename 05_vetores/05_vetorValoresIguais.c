@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main(){
+//Leia 10 valores em dois vetores de 5 posições e verifique se eles
+// possuem valores iguais nas mesmas posições.
 
+int main(){
 	float A[5], B[5];
 	int contador;
 

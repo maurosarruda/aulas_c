@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+//Faça um programa que leia valores do usuário e armazene os numeros
+// pares em um vetor de 10 posições. Solicite novos valores para o usuário
+// até que o vetor esteja preenchido.
 int main(){
-
 	int numerosPares[10], valor, contador = 0;
 
 	do{

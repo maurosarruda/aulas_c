@@ -1,15 +1,13 @@
-
 #include <stdio.h>
 
-int main()
-{
+int main(){
     // Comentário
-	int idade, idadeMae;
-	idade = 23;
-	int idadePai = 52;
-    printf("Digite a idade da mae:\n");
-    scanf("%i", &idadeMae);
-    printf("Idade = %i, Idade do Pai = %i, Idade da Mae = %i.", idade, idadePai, idadeMae);
+	int idade, idadeMae;                // Definição
+	idade = 23;                         // Atribuição
+	int idadePai = 52;                  // Definição e inicialização
+    printf("Digite a idade da mae:\n"); // Impressão na tela
+    scanf("%i", &idadeMae);             // Leitura de dados do teclado
+    printf("Idade = %i, Idade do Pai = %i, Idade da Mae = %i.", idade, idadePai, idadeMae); // Impressão com valores de variáveis
 
     return 0;
 }

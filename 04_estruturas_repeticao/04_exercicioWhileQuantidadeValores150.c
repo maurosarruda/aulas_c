@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-
     float soma, qtdValoresDigitados, media, valor;
 
 	soma = 0;
 	qtdValoresDigitados = 0;
 
+	//While utilizando acumulador
 	while (soma <= 150){
 		printf("Digite um valor:\n");
 		scanf("%f", &valor);

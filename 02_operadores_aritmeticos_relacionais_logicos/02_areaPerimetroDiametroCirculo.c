@@ -1,6 +1,6 @@
-
 #include <stdio.h>
 
+//Faça um programa que leia o raio do circulo e calcule o perimetro, area e diametro.
 int main(){
     const float pi = 3.1415;
     float raio, perimetro, area, diametro;

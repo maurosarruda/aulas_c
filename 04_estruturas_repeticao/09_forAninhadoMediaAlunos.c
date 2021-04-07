@@ -1,9 +1,12 @@
 #include <stdio.h>
 
+//Faça um algoritmo que calcule a media de 5 alunos com 3 notas e apresente
+// a média da turma. Utilize o for aninhado e acumuladores.
 int main(){
 	int contadorNotas, contadorAlunos;
 	float mediaAluno, mediaTurma, nota;
 	mediaTurma = 0;
+
 	for (contadorAlunos = 1; contadorAlunos <= 5; contadorAlunos++){
 		mediaAluno = 0;
 		for (contadorNotas = 1; contadorNotas <= 3; contadorNotas++){

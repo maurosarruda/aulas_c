@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//Faça um programa que receba a quantidade de alunos que deseja 
+//calcular a media e receba 3 notas de cada aluno e apresente a 
+//sua média. Utilize um While aninhado.
 int main() {
     int qtdAlunos, contadorAlunos, contadorNotas;
     float nota, media;
@@ -8,9 +11,11 @@ int main() {
     scanf("%i", &qtdAlunos);
 
 	contadorAlunos = 1;
+    //While para percorrer a quantidade de alunos digitados
 	while (contadorAlunos <= qtdAlunos){ 
 		media = 0;
         contadorNotas = 1;
+        //While para percorrer as 3 notas
         while (contadorNotas <= 3){
             printf("Entre com a %i nota do %i aluno:\n", contadorNotas, contadorAlunos);
             scanf("%f", &nota);
